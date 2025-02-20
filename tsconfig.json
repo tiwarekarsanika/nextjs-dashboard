@@ -18,12 +18,9 @@
         "name": "next"
       }
     ],
-    "baseUrl": "app/",
+    "baseUrl": "./",
     "paths": {
-      "@/lib/*": ["lib/*"],
-      "@/ui/*": ["ui/*"],
-      "@/query/*": ["query/*"],
-      "@/seed/*": ["seed/*"]
+      "@/*": ["./*"]
     }
   },
   "include": [
